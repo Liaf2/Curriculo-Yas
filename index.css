@@ -1,0 +1,54 @@
+:root{
+    --fundo-principal:radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+    --fonte-cor: radial-gradient(circle at 50% -20.71%, #9da2a0 0, #9a999a 12.5%, #969094 25%, #91868f 37.5%, #8a7b8a 50%, #817186 62.5%, #786884 75%, #6d6182 87.5%, #615b81 100%);
+}
+
+
+body{
+    background-image: var(--fundo-principal);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    display: flex;
+    margin: 10em 0em 10em 15em;
+    text-align: center;
+
+
+}
+
+.card-box{
+    padding: 5em 5em;
+    box-shadow: 1em 1em #c88fc8 ;
+    border: solid 0.2px #c88fc8 ;
+    align-items: center;
+    border-radius: 10px;
+    color: #824782;
+
+    
+}
+
+.card-titulo{
+ margin: -3em 8em 5em -30em;
+}
+
+.card-subtitulo{
+    display: flex;
+    margin: -5em 8em 5em 0em;
+
+}
+
+.rodape{
+    display: block;
+    color: rgb(70, 38, 66);
+    background-color:#c88fc8 ;
+    padding: 0.3em;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #915391;
+    
+}
